@@ -4,9 +4,6 @@ public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner entrada = new Scanner(System.in);
 
-        
-        
-         
         double saldo = 5000.50;
 
         System.out.println("Digite seu nome completo: ");
