@@ -16,10 +16,7 @@ public class ContaTerminal {
         System.out.println("Digite o número da sua conta: ");
         int numero = entrada.nextInt();
 
-        System.out.println("Olá "+ nome);
-        System.out.println("Sua agencia é: "+ agencia);
-        System.out.println("Sua conta é: "+ numero);
-        System.out.println("Seu saldo é: " + saldo);
+        System.out.println("Olá "+ nome + ", sua agência é "+agencia+", conta "+numero+" e seu saldo "+saldo+" já está dísponivel para saque");
         entrada.close();
     }
 }
