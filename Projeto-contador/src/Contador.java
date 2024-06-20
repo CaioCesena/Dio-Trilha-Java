@@ -17,7 +17,7 @@ public class Contador {
             }
             
             // Execução da lógica principal
-            contar(parametroUm, parametroDois);
+            contar(parametroUm, parametroDois); 
         } catch (ParametrosInvalidosException e) {
             System.out.println(e.getMessage());
         } catch (Exception e) {
@@ -31,6 +31,7 @@ public class Contador {
         int quantidadeIteracoes = parametroDois - parametroUm;
         for (int i = 1; i <= quantidadeIteracoes; i++) {
             System.out.println("Imprimindo o número " + i);
+            //aparecer
         }
     }
 }
